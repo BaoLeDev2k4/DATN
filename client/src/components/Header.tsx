@@ -10,7 +10,7 @@ const Header: React.FC = () => {
   <ul className="max-md:tw-flex-1 tw-h-full tw-flex tw-items-center tw-gap-4 tw-justify-evenly md:tw-justify-between [&>li:not(:first-child)]:tw-relative [&>li:not(:first-child)]:before:tw-content-[''] [&>li:not(:first-child)]:before:tw-absolute max-md:[&>li:not(:first-child)]:before:tw-left-[-18%] [&>li:not(:first-child)]:before:tw-left-[-8px] [&>li:not(:first-child)]:before:tw-top-1/2 [&>li:not(:first-child)]:before:tw-transform [&>li:not(:first-child)]:before:-tw-translate-y-1/2 [&>li:not(:first-child)]:before:tw-h-4 [&>li:not(:first-child)]:before:tw-w-[1px] [&>li:not(:first-child)]:before:tw-bg-cm-neutral-300/20 [&>li]:tw-px-2 [&>li]:tw-h-full">
     <li className="hover:tw-bg-[#404040] tw-transition-colors" rel-script="sub-menu" data-menu-id="coolclub">
       <a
-        href="/lp/coolmate-101?itm_source=navbar"
+        href="#"
         className="tw-flex tw-items-center tw-h-full tw-text-[11px] md:tw-text-xs tw-font-criteria tw-uppercase tw-font-normal tw-line-clamp-1"
         data-ga-tracking-value="topbar3-coolclub"
         data-ga-tracking-label="coolclub"
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
     </li>
     <li className="hover:tw-bg-[#404040] tw-transition-colors" rel-script="sub-menu" data-menu-id="cxp">
       <a
-        href="/lp/coolxprint-mo-hinh-dat-san-xuat-theo-yeu-cau?itm_source=navbar"
+        href="#"
         className="tw-flex tw-items-center tw-h-full tw-text-[11px] md:tw-text-xs tw-font-criteria tw-uppercase tw-font-normal"
         data-ga-tracking-value="topbar1-cxp"
         data-ga-tracking-label="84rising"
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
     <li className="hover:tw-bg-[#404040] tw-transition-colors" rel-script="sub-menu" data-menu-id="page-coolclub">
       <a
         className="tw-flex tw-items-center tw-gap-1 tw-h-full"
-        href="/page/coolclub-chuong-trinh-khach-hang-than-thiet-cua-coolmate?itm_source=navbar"
+        href="#"
         data-ga-tracking-value="topbar1-page-coolclub"
       >
         CoolClub
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
       data-menu-id="blog"
     >
       <a
-        href="/blog?itm_source=navbar"
+        href="#"
         data-ga-tracking-value="topbar1-blog"
         className="tw-flex tw-items-center tw-h-full !tw-font-normal"
       >
@@ -65,7 +65,7 @@ const Header: React.FC = () => {
       data-menu-id="about"
     >
       <a
-        href="/page/trung-tam-dich-vu-khach-hang?itm_source=navbar"
+        href="#"
         data-ga-tracking-value="topbar1-trung-tam-dich-vu-khach-hang"
         className="tw-flex tw-items-center tw-h-full !tw-font-normal"
       >
@@ -256,7 +256,7 @@ const Header: React.FC = () => {
           <a
             ga-tracking-value="menu__main-outlet"
             ga-tracking-label="OUTLET"
-            href="/collection/giam-gia?itm_source=navbar"
+            href="#"
             className="tw-relative tw-font-medium tw-text-center"
           >
             <span className="tw-font-semibold tw-text-cm-error-500 tw-text-end tw-relative">
@@ -282,7 +282,7 @@ const Header: React.FC = () => {
                         <li className="">
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/giam-gia?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-outlet__outlet"
                           >
                             Outlet
@@ -303,7 +303,7 @@ const Header: React.FC = () => {
                         </li>
                         <li className="">
                           <a
-                            href="/collection/giam-gia?discount_percent=30&itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-outlet__giam-den-30"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -314,7 +314,7 @@ const Header: React.FC = () => {
                         </li>
                         <li className="">
                           <a
-                            href="/collection/giam-gia?discount_percent=50&itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-outlet__giam-den-50"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -325,7 +325,7 @@ const Header: React.FC = () => {
                         </li>
                         <li className="">
                           <a
-                            href="/collection/giam-gia?discount_percent=70&itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-outlet__giam-den-70"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -345,7 +345,7 @@ const Header: React.FC = () => {
                   <div className="tw-grid tw-grid-cols-3 tw-gap-5 tw-px-10 tw-py-8">
                     <div className="">
                       <a
-                        href="/collection/giam-gia?loai-san-pham=ao&discount_percent=50"
+                        href="#"
                         ga-tracking-value="menu__main-outlet__banner-vitri-1"
                         ga-tracking-label="Áo Nam Outlet Sale"
                       >
@@ -367,7 +367,7 @@ const Header: React.FC = () => {
                     </div>
                     <div className="">
                       <a
-                        href="/collection/giam-gia?loai-san-pham=quan&discount_percent=50"
+                        href="#"
                         ga-tracking-value="menu__main-outlet__banner-vitri-2"
                         ga-tracking-label="Quần Shorts Nam Outlet Sale"
                       >
@@ -389,7 +389,7 @@ const Header: React.FC = () => {
                     </div>
                     <div className="">
                       <a
-                        href="/collection/giam-gia?loai-san-pham=quan-lot-cm&discount_percent=50"
+                        href="#"
                         ga-tracking-value="menu__main-outlet__banner-vitri-3"
                         ga-tracking-label="Quần Lót Nam Outlet Sale"
                       >
@@ -420,7 +420,7 @@ const Header: React.FC = () => {
           className="nav__sub-item active-menu tw-h-full hover:tw-border-cm-neutral-900 hover:tw-border-b-[3px]"
         >
           <a
-            href="/nam?itm_source=navbar"
+            href="#"
             ga-tracking-value="menu__main-nam"
             ga-tracking-label="NAM"
             style={{ position: "relative" }}
@@ -671,7 +671,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href=""
+                            href="#"
                             ga-tracking-value="menu__main-nam__quan-nam"
                           >
                             Quần Nam
@@ -861,7 +861,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/phu-kien-nam?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nam__phu-kien"
                           >
                             Phụ kiện
@@ -882,7 +882,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/phu-kien-nam?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nam__div-classtw-leading-4-mdtw-leading-5tat-ca-phu-kien-br-span-classtw-italic-tat-mu-tui-spandiv"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600 "
                             style={{}}
@@ -907,21 +907,21 @@ const Header: React.FC = () => {
                     </div>
                     <div className="tw-flex tw-gap-2">
                       <a
-                        href="/collection/quan-lot-nam?itm_source=navbar"
+                        href="#"
                         ga-tracking-value="menu__main-nam__theo-nhu-cau__do-lot"
                         className="tw-p-6 tw-font-medium tw-text-cm-neutral-900 tw-text-sm hover:tw-text-cm-primary-500 tw-transition-colors tw-duration-150"
                       >
                         ĐỒ LÓT
                       </a>
                       <a
-                        href="/collection/coolmate-activewear?itm_source=navbar"
+                        href="#"
                         ga-tracking-value="menu__main-nam__theo-nhu-cau__do-the-thao"
                         className="tw-p-6 tw-font-medium tw-text-cm-neutral-900 tw-text-sm hover:tw-text-cm-primary-500 tw-transition-colors tw-duration-150"
                       >
                         ĐỒ THỂ THAO
                       </a>
                       <a
-                        href="/collection/do-casual?itm_source=navbar"
+                        href="#"
                         ga-tracking-value="menu__main-nam__theo-nhu-cau__mac-hang-ngay"
                         className="tw-p-6 tw-font-medium tw-text-cm-neutral-900 tw-text-sm hover:tw-text-cm-primary-500 tw-transition-colors tw-duration-150"
                       >
@@ -936,7 +936,7 @@ const Header: React.FC = () => {
                 >
                   <div className="tw-flex tw-flex-col tw-gap-2">
                     <a
-                      href="/product/ao-so-mi-essentials-100-cotton-dai-tay-mem-mai2?color=trang"
+                      href="#"
                       ga-tracking-value="menu__main-nam__banner-vitri__1"
                       ga-tracking-label="Áo Sơ Mi Dài Tay Essentials Cotton"
                     >
@@ -955,7 +955,7 @@ const Header: React.FC = () => {
                       </div>
                     </a>
                     <a
-                      href="/product/quan-jeans-nam-dang-straight-sieu-nhe?color=xanh-wash"
+                      href="#"
                       ga-tracking-value="menu__main-nam__banner-vitri__2"
                       ga-tracking-label="Quần Jeans Nam siêu nhẹ"
                     >
@@ -984,7 +984,7 @@ const Header: React.FC = () => {
           className="nav__sub-item active-menu tw-h-full hover:tw-border-cm-neutral-900 hover:tw-border-b-[3px]"
         >
           <a
-            href="/nu?itm_source=navbar"
+            href="#"
             ga-tracking-value="menu__main-nu"
             ga-tracking-label="NỮ"
             style={{ position: "relative" }}
@@ -1007,7 +1007,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/coolmate-activewear-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__tat-ca-san-pham"
                           >
                             Tất cả sản phẩm
@@ -1028,7 +1028,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-ao-chay-bo-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__chay-bo"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1039,7 +1039,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/yoga-pilates?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__yoga-pilates"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1050,7 +1050,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/the-thao-chung-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__the-thao-chung"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1061,7 +1061,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="javascript:void(0)"
+                            href="#"
                             ga-tracking-value="menu__main-nu__pickleball-tennis"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-400"
                           >
@@ -1074,7 +1074,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="javascript:void(0)"
+                            href="#"
                             ga-tracking-value="menu__main-nu__cau-long-bong-ban"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-400"
                           >
@@ -1095,7 +1095,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/ao-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__ao-nu"
                           >
                             Áo nữ
@@ -1116,7 +1116,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/ao-bra-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__ao-sport-bra"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1127,7 +1127,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/ao-cropped-top?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__ao-croptop"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1138,7 +1138,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/ao-singlet-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__ao-singlet"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1149,7 +1149,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/ao-thun-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__ao-thun"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1160,7 +1160,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/graphic-tee?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__graphic-tees"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1179,7 +1179,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/quan-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__quan-nu"
                           >
                             Quần Nữ
@@ -1200,7 +1200,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-legging?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__quan-legging"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1211,7 +1211,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-short-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__quan-shorts"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1222,7 +1222,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-biker-short?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__quan-biker-shorts"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1241,7 +1241,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="/collection/phu-kien-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__phu-kien"
                           >
                             Phụ kiện
@@ -1262,7 +1262,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/phu-kien-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__div-classtw-leading-4-mdtw-leading-5tat-ca-phu-kien-br-span-classtw-italic-tat-mu-tui-spandiv"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1287,7 +1287,7 @@ const Header: React.FC = () => {
                         <li>
                           <a
                             className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900"
-                            href="javascript:void(0)"
+                            href="#"
                             ga-tracking-value="menu__main-nu__kham-pha"
                           >
                             Khám phá
@@ -1295,7 +1295,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/huong-dan-chon-size-do-nu?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__huong-dan-chon-size-nu"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1306,7 +1306,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/dai-su-the-thao?active-tab=sports-ambassador?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__dai-su-cua-chung-toi"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1317,7 +1317,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/dai-su-the-thao?active-tab=club-partners?itm_source=navbar"
+                            href="#"
                             ga-tracking-value="menu__main-nu__cau-lac-bo-dong-hanh"
                             className="tw-text-xs xl:tw-text-sm tw-text-cm-neutral-600"
                           >
@@ -1336,7 +1336,7 @@ const Header: React.FC = () => {
                 >
                   <div className="tw-flex tw-flex-col tw-gap-2">
                     <a
-                      href="/collection/coolmate-activewear-nu"
+                      href="#"
                       ga-tracking-value="menu__main-nu__banner-vitri__1"
                       ga-tracking-label="COOLMATE ACTIVE FOR WOMEN"
                     >
@@ -1355,7 +1355,7 @@ const Header: React.FC = () => {
                       </div>
                     </a>
                     <a
-                      href="/product/legging-yoga-ribbed?color=xam"
+                      href="#"
                       ga-tracking-value="menu__main-nu__banner-vitri__2"
                       ga-tracking-label="LEGGING YOGA RIBBED"
                     >
@@ -1384,7 +1384,7 @@ const Header: React.FC = () => {
           className="nav__sub-item active-menu tw-h-full hover:tw-border-cm-neutral-900 hover:tw-border-b-[3px]"
         >
           <a
-            href="/collection/coolmate-activewear?itm_source=navbar"
+            href="#"
             ga-tracking-value="menu__main-the-thao"
             ga-tracking-label="THỂ THAO"
             style={{ position: "relative" }}
@@ -1399,7 +1399,7 @@ const Header: React.FC = () => {
                   style={{ flex: "0 0 36%" }}
                 >
                   <a
-                    href="/collection/coolmate-activewear"
+                    href="#"
                     ga-tracking-value="menu__main-the-thao__nam"
                     className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900 tw-pb-3 hover:tw-text-cm-blue tw-cursor-pointer"
                   >
@@ -1423,7 +1423,7 @@ const Header: React.FC = () => {
                       <ul rel-script="mega-menu-active">
                         <li>
                           <a
-                            href="/collection/the-thao-chung-nam"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__the-thao-chung"
                             ga-tracking-label="Thể thao chung"
                           >
@@ -1442,7 +1442,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-ao-phu-kien-tap-gym"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__tap-gym"
                             ga-tracking-label="Tập gym"
                           >
@@ -1461,7 +1461,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/do-boi-nam"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__boi-loi"
                             ga-tracking-label="Bơi lội"
                           >
@@ -1480,7 +1480,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/outdoor-collection"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__outdoor"
                             ga-tracking-label="Outdoor"
                           >
@@ -1503,7 +1503,7 @@ const Header: React.FC = () => {
                       <ul rel-script="mega-menu-active">
                         <li>
                           <a
-                            href="/collection/quan-ao-chay-bo"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__chay-bo"
                             ga-tracking-label="Chạy bộ"
                           >
@@ -1522,7 +1522,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-ao-da-bong-coolmate"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__bong-da"
                             ga-tracking-label="Bóng đá"
                           >
@@ -1538,7 +1538,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/cau-long-bong-ban-nam"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nam__cau-long-bong-ban"
                             ga-tracking-label="Cầu lông & Bóng bàn"
                           >
@@ -1561,7 +1561,7 @@ const Header: React.FC = () => {
                 </div>
                 <div className="tw-px-5 tw-py-8" style={{ flex: "0 0 36%" }}>
                   <a
-                    href="/collection/coolmate-activewear-nu"
+                    href="#"
                     ga-tracking-value="menu__main-the-thao__nu"
                     className="tw-group tw-transition-all tw-duration-300 mega-menu__title tw-flex tw-items-center tw-gap-1 tw-text-xs xl:tw-text-sm tw-text-cm-neutral-900 tw-pb-3 hover:tw-text-cm-blue tw-cursor-pointer"
                   >
@@ -1585,7 +1585,7 @@ const Header: React.FC = () => {
                       <ul rel-script="mega-menu-active">
                         <li>
                           <a
-                            href="/collection/yoga-pilates"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__yoga-pilates"
                             ga-tracking-label="Yoga & Pilates"
                           >
@@ -1604,7 +1604,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-ao-chay-bo-nu"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__chay-bo"
                             ga-tracking-label="Chạy bộ"
                           >
@@ -1623,7 +1623,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/the-thao-chung-nu"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__the-thao-chung"
                             ga-tracking-label="Thể thao chung"
                           >
@@ -1646,7 +1646,7 @@ const Header: React.FC = () => {
                       <ul rel-script="mega-menu-active">
                         <li>
                           <a
-                            href="/collection/ao-nu-choi-the-thao"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__ao-the-thao-nu"
                             ga-tracking-label="Áo thể thao nữ"
                           >
@@ -1665,7 +1665,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/quan-nu-choi-the-thao"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__quan-the-thao-nu"
                             ga-tracking-label="Quần thể thao nữ"
                           >
@@ -1684,7 +1684,7 @@ const Header: React.FC = () => {
                         </li>
                         <li>
                           <a
-                            href="/collection/phu-kien-nu-choi-the-thao"
+                            href="#"
                             ga-tracking-value="menu__main-the-thao__nu__phu-kien-the-thao-nu"
                             ga-tracking-label="Phụ kiện thể thao nữ"
                           >
@@ -1711,7 +1711,7 @@ const Header: React.FC = () => {
                 >
                   <div className="tw-flex tw-flex-col tw-gap-2">
                     <a
-                      href="/product/ao-polo-the-thao-nam-promax-s1-logo-1?color=nau-coffee-quartz"
+                      href="#"
                       ga-tracking-value="menu__main-the-thao__banner-vitri__1"
                       ga-tracking-label="Áo Polo Nam Thể Thao Promax-S1"
                     >
@@ -1730,7 +1730,7 @@ const Header: React.FC = () => {
                       </div>
                     </a>
                     <a
-                      href="/product/quan-the-thao-nam-promax-s1?color=den"
+                      href="#"
                       ga-tracking-value="menu__main-the-thao__banner-vitri__2"
                       ga-tracking-label="Quần Shorts Nam Thể Thao Promax-S1"
                     >
@@ -1759,7 +1759,7 @@ const Header: React.FC = () => {
           className="nav__sub-item active-menu tw-h-full hover:tw-border-cm-neutral-900 hover:tw-border-b-[3px]"
         >
           <a
-            href="/collection/care-and-share?itm_source=navbar"
+            href="#"
             ga-tracking-value="menu__main-care-and-share"
             ga-tracking-label="CARE & SHARE"
           >
@@ -1781,7 +1781,7 @@ const Header: React.FC = () => {
                       alt="Care & Share"
                     />
                     <a
-                      href="/collection/care-and-share?itm_source=navbar"
+                      href="#"
                       ga-tracking-value="menu__main-care-and-share__button"
                       ga-tracking-label="CARE & SHARE"
                     >
@@ -1853,7 +1853,7 @@ const Header: React.FC = () => {
       </div>
       {/* <header-user-icon /> */}
       <div className="header-actions__button">
-        <a href="https://www.coolmate.me/cart">
+        <a href="#">
           <img src="images/icon-cart-new-v2.svg" alt="Icon mini cart" />
         </a>
         <span className="counts site-header__cartcount !tw-bg-cm-error-500 !tw-text-white !tw-rounded-full">
@@ -2055,7 +2055,7 @@ const Header: React.FC = () => {
   <div className="">
     <a
       className="tw-flex max-md:tw-justify-between tw-items-center tw-gap-2 max-md:tw-w-full max-md:tw-px-5"
-      href="https://www.coolmate.me/wowbox?itm_source=topbar"
+      href="#"
       ga-tracking-value="topbar"
     >
       <div className="text-slider-wrapper">

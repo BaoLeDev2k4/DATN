@@ -47,7 +47,7 @@ const Footer : React.FC = ()=>{
                         1900.272737
                       </a>{" "}
                       -{" "}
-                      <a rel="nofollow" href="tel: 02877772737">
+                      <a rel="nofollow" href="#">
                         028.7777.2737
                       </a>
                       <br /> <span>(8:30 - 22:00)</span>
@@ -61,7 +61,7 @@ const Footer : React.FC = ()=>{
                   <div className="footer-info__content">
                     <span className="footer-info__title">Email</span>
                     <p className="footer-info__desciption">
-                      <a rel="nofollow" href="mailto: Cool@coolmate.me">
+                      <a rel="nofollow" href="#">
                         Cool@coolmate.me
                       </a>
                     </p>
@@ -71,7 +71,7 @@ const Footer : React.FC = ()=>{
               <div className="footer-social">
                 <a
                   rel="nofollow"
-                  href="https://www.facebook.com/coolmate.me"
+                  href="#"
                   className="footer-social__item"
                   target="_blank"
                 >
@@ -79,7 +79,7 @@ const Footer : React.FC = ()=>{
                 </a>
                 <a
                   rel="nofollow"
-                  href="https://zalo.me/1517736583279228381"
+                  href="#"
                   target="_blank"
                   className="footer-social__item"
                 >
@@ -87,7 +87,7 @@ const Footer : React.FC = ()=>{
                 </a>
                 <a
                   rel="nofollow"
-                  href="https://www.tiktok.com/@cool.coolmate"
+                  href="#"
                   target="_blank"
                   className="footer-social__item"
                 >
@@ -95,7 +95,7 @@ const Footer : React.FC = ()=>{
                 </a>
                 <a
                   rel="nofollow"
-                  href="https://www.instagram.com/coolmate.me/"
+                  href="#"
                   className="footer-social__item"
                   target="_blank"
                 >
@@ -103,7 +103,7 @@ const Footer : React.FC = ()=>{
                 </a>
                 <a
                   rel="nofollow"
-                  href="https://www.youtube.com/channel/UCWw8wLlodKBtEvVt1tTAsMA"
+                  href="#"
                   className="footer-social__item"
                   target="_blank"
                 >
@@ -117,12 +117,12 @@ const Footer : React.FC = ()=>{
                   <p className="footer-menu__title">COOLCLUB</p>
                   <ul>
                     <li>
-                      <a rel="nofollow" href="/account/register?itm_source=footerm">
+                      <a rel="nofollow" href="#">
                         Đăng kí thành viên
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/coolclub?itm_source=footer">
+                      <a rel="nofollow" href="#">
                         Ưu đãi &amp; Đặc quyền
                       </a>
                     </li>
@@ -132,7 +132,7 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/lp/coolmate-101?itm_source=footer#recruitment-jobs"
+                        href="#"
                       >
                         Tuyển dụng
                       </a>
@@ -140,7 +140,7 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="http://online.gov.vn/(X(1)S(sgmttobbtsiaq3l5itoicxhw))/Home/WebDetails/53184?AspxAutoDetectCookieSupport=1"
+                        href="#"
                         target="_blank"
                       >
                         Đăng ký bản quyền
@@ -152,14 +152,14 @@ const Footer : React.FC = ()=>{
                   <p className="footer-menu__title">Chính sách</p>
                   <ul>
                     <li>
-                      <a rel="nofollow" href="/page/dich-vu-60-ngay-doi-tra">
+                      <a rel="nofollow" href="#">
                         Chính sách đổi trả 60 ngày
                       </a>
                     </li>
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/chuong-trinh-va-chinh-sach-khuyen-mai-tai-coolmate"
+                        href="#"
                       >
                         Chính sách khuyến mãi
                       </a>
@@ -167,13 +167,13 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/chinh-sach-bao-mat-thong-tin-ca-nhan"
+                        href="#"
                       >
                         Chính sách bảo mật
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/page/dich-vu-giao-hang-coolmate">
+                      <a rel="nofollow" href="#">
                         Chính sách giao hàng
                       </a>
                     </li>
@@ -181,7 +181,7 @@ const Footer : React.FC = ()=>{
                   <p className="footer-menu__title">Coolmate.me</p>
                   <ul>
                     <li>
-                      <a rel="nofollow" href="/page/changelog?itm_source=footer">
+                      <a rel="nofollow" href="#">
                         Lịch sử thay đổi website
                       </a>
                     </li>
@@ -193,13 +193,13 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/11-dich-vu-tai-coolmate-co-the-ban-chua-biet"
+                        href="#"
                       >
                         Trải nghiệm mua sắm 100% hài lòng
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/page/faqs">
+                      <a rel="nofollow" href="#">
                         Hỏi đáp - FAQs
                       </a>
                     </li>
@@ -207,17 +207,17 @@ const Footer : React.FC = ()=>{
                   <p className="footer-menu__title">Kiến thức mặc đẹp</p>
                   <ul>
                     <li>
-                      <a rel="nofollow" href="/size-chart">
+                      <a rel="nofollow" href="#">
                         Hướng dẫn chọn size đồ nam
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/huong-dan-chon-size-do-nu">
+                      <a rel="nofollow" href="#">
                         Hướng dẫn chọn size đồ nữ
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/blog">
+                      <a rel="nofollow" href="#">
                         Blog
                       </a>
                     </li>
@@ -229,26 +229,26 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/quy-tac-ung-xu-cua-coolmate?itm_source=footer"
+                        href="#"
                       >
                         Quy tắc ứng xử của Coolmate
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/lp/coolmate-101?itm_source=footer">
+                      <a rel="nofollow" href="#">
                         Coolmate 101
                       </a>
                     </li>
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/11-dich-vu-tai-coolmate-co-the-ban-chua-biet?itm_source=footer"
+                        href="#"
                       >
                         DVKH xuất sắc
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/page/coolmate-story?itm_source=footer">
+                      <a rel="nofollow" href="#">
                         {" "}
                         Câu chuyện về Coolmate
                       </a>
@@ -256,7 +256,7 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/san-pham-coolmate-duoc-san-xuat-nhu-the-nao?itm_source=footer"
+                        href="#"
                       >
                         Nhà máy
                       </a>
@@ -264,7 +264,7 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/collection/care-and-share?itm_source=footer"
+                        href="#"
                       >
                         Care &amp; Share
                       </a>
@@ -272,13 +272,13 @@ const Footer : React.FC = ()=>{
                     <li>
                       <a
                         rel="nofollow"
-                        href="/page/cam-ket-phat-trien-ben-vung?itm_source=footer"
+                        href="#"
                       >
                         Cam kết bền vững
                       </a>
                     </li>
                     <li>
-                      <a rel="nofollow" href="/tam-nhin-2030?itm_source=footer">
+                      <a rel="nofollow" href="#">
                         Tầm nhìn 2030
                       </a>
                     </li>
@@ -318,7 +318,7 @@ const Footer : React.FC = ()=>{
             <div className="site-footer__logo">
               <a
                 rel="nofollow"
-                href="https://tinnhiemmang.vn/danh-ba-tin-nhiem/coolmateme-1646213826"
+                href="#"
                 title="Chung nhan Tin Nhiem Mang"
                 target="_blank"
                 style={{ marginRight: 10 }}
@@ -331,7 +331,7 @@ const Footer : React.FC = ()=>{
               </a>
               <a
                 rel="nofollow"
-                href="//www.dmca.com/Protection/Status.aspx?ID=c6fdbdee-127c-4cf1-923d-7efe75201df6"
+                href="#"
                 title="DMCA.com Protection Status"
                 className="dmca-badge"
                 style={{ marginRight: 10 }}
@@ -353,7 +353,7 @@ const Footer : React.FC = ()=>{
               </a>
               <a
                 rel="nofollow"
-                href="http://online.gov.vn/(X(1)S(3e0hkhscv5zs101mhuopx43a))/Home/WebDetails/53184?AspxAutoDetectCookieSupport=1"
+                href="#"
                 target="_blank"
               >
                 <img
