@@ -215,7 +215,7 @@ const Home: React.FC = () => {
                 </div>
               </a>
               <a
-                href="https://www.coolmate.me/collection/phu-kien-nam"
+                href="#"
                 ga-tracking-value="Home_Category_Nam_phu-kien"
                 ga-tracking-label="Home_Category_Nam_PHỤ KIỆN"
                 className="tw-min-w-0 tw-shrink-0 tw-grow-0 tw-snap-start tw-basis-[40%] md:tw-basis-1/3 lg:tw-basis-1/5 xl:tw-basis-1/6 tw-px-2 tw-group"
@@ -260,7 +260,7 @@ const Home: React.FC = () => {
                 </div>
               </a>
               <a
-                href="/collection/ao-thun-nu?itm_source=homepage"
+                href="#"
                 ga-tracking-value="Home_Category_Nu_ao-the-thao"
                 ga-tracking-label="Home_Category_Nu_ÁO THỂ THAO"
                 className="tw-min-w-0 tw-shrink-0 tw-grow-0 tw-snap-start tw-basis-[40%] md:tw-basis-1/3 lg:tw-basis-1/5 xl:tw-basis-1/6 tw-px-2 tw-group"
@@ -277,7 +277,7 @@ const Home: React.FC = () => {
                 </div>
               </a>
               <a
-                href="/collection/quan-nu?itm_source=homepage"
+                href="#"
                 ga-tracking-value="Home_Category_Nu_quan-the-thao"
                 ga-tracking-label="Home_Category_Nu_QUẦN THỂ THAO"
                 className="tw-min-w-0 tw-shrink-0 tw-grow-0 tw-snap-start tw-basis-[40%] md:tw-basis-1/3 lg:tw-basis-1/5 xl:tw-basis-1/6 tw-px-2 tw-group"
@@ -294,7 +294,7 @@ const Home: React.FC = () => {
                 </div>
               </a>
               <a
-                href="/collection/phu-kien-nu?itm_source=homepage"
+                href=""
                 ga-tracking-value="Home_Category_Nu_phu-kien"
                 ga-tracking-label="Home_Category_Nu_PHỤ KIỆN"
                 className="tw-min-w-0 tw-shrink-0 tw-grow-0 tw-snap-start tw-basis-[40%] md:tw-basis-1/3 lg:tw-basis-1/5 xl:tw-basis-1/6 tw-px-2 tw-group"
@@ -343,7 +343,7 @@ const Home: React.FC = () => {
                     Nhập COOLNEW Giảm 30k đơn từ 199k
                   </span>
                   <a
-                    href="/nam"
+                    href=""
                     className="tw-inline-flex tw-items-center tw-gap-1 md:tw-gap-2 tw-font-criteria md:tw-text-base tw-text-sm tw-font-normal tw-px-4 md:tw-px-12 tw-py-2 md:tw-py-4 tw-text-cm-black tw-bg-cm-white tw-rounded-full tw-uppercase hover:tw-bg-cm-black-20 tw-w-max"
                     ga-tracking-label="MEN WEAR"
                     ga-tracking-value="/nam"
@@ -379,7 +379,7 @@ const Home: React.FC = () => {
                     Tặng Cốc Coolmate đơn từ 299k | Freeship
                   </span>
                   <a
-                    href="/nu"
+                    href=""
                     className="tw-inline-flex tw-items-center tw-gap-1 md:tw-gap-2 tw-font-criteria md:tw-text-base tw-text-sm tw-font-normal tw-px-4 md:tw-px-12 tw-py-2 md:tw-py-4 tw-text-cm-black tw-bg-cm-white tw-rounded-full tw-uppercase hover:tw-bg-cm-black-20 tw-w-max"
                     ga-tracking-label="WOMEN ACTIVE"
                     ga-tracking-value="/nu"
@@ -394,7 +394,7 @@ const Home: React.FC = () => {
         <section className="banner-block">
           <div className="tw-relative tw-w-full banner-block__wrapper">
             <a
-              href="https://www.coolmate.me/collection/do-casual?itm_source=homepage&itm_medium=homepage_banner_section1&itm_campaign=/image/May2025/Casual_-_Desktop.jpg&itm_content=/image/May2025/Casual_-_Desktop.jpg"
+              href="#"
               className="tw-block tw-w-full"
               ga-tracking-value="bannersection-vitri1"
               ga-tracking-label="SẢN PHẨM MẶC HẰNG NGÀY"
@@ -421,7 +421,7 @@ const Home: React.FC = () => {
               <div className="banner-block__button">
                 <a
                   className="tw-inline-flex tw-items-center tw-gap-1 md:tw-gap-2 tw-font-criteria md:tw-text-base tw-text-sm tw-font-normal tw-px-3 md:tw-px-12 tw-pt-2 tw-pb-[5px] md:tw-py-4 tw-rounded-full tw-uppercase tw-bg-cm-neutral-00 tw-text-cm-neutral-900 hover:tw-bg-cm-neutral-100"
-                  href="https://www.coolmate.me/collection/do-casual?itm_source=homepage&itm_medium=homepage_banner_section1&itm_campaign=/image/May2025/Casual_-_Desktop.jpg&itm_content=/image/May2025/Casual_-_Desktop.jpg"
+                  href=""
                   ga-tracking-value="bannersection-vitri1"
                   ga-tracking-label="SẢN PHẨM MẶC HẰNG NGÀY"
                 >
@@ -450,7 +450,7 @@ const Home: React.FC = () => {
             <div className="homepage-products__heading mac-hang-ngay-trang-chu">
               SẢN PHẨM MẶC HẰNG NGÀY
               <span>
-                <a href="https://www.coolmate.me/collection/do-casual">Xem thêm</a>
+                <a href="">Xem thêm</a>
               </span>
             </div>
             <div
@@ -544,7 +544,7 @@ const Home: React.FC = () => {
             </div>
             <div className="homepage-products__seemore">
               <a
-                href="https://www.coolmate.me/collection/do-casual"
+                href=""
                 className="tw-inline-flex tw-items-center tw-gap-1 md:tw-gap-2 tw-font-criteria md:tw-text-base tw-text-sm tw-font-normal tw-px-3 md:tw-px-12 tw-pt-2 tw-pb-[5px] md:tw-py-4 tw-text-cm-black tw-border tw-border-cm-black tw-bg-cm-white tw-rounded-full tw-uppercase hover:tw-bg-cm-black-90 hover:tw-text-cm-white"
               >
                 Xem thêm
@@ -555,7 +555,7 @@ const Home: React.FC = () => {
         <section className="banner-block">
           <div className="tw-relative tw-w-full banner-block__wrapper">
             <a
-              href="https://www.coolmate.me/collection/do-chay-bo-coolmate?itm_source=homepage&itm_medium=homepage_banner_section2&itm_campaign=/image/May2025/Running_-_Desktop.jpg&itm_content=/image/May2025/Running_-_Desktop.jpg"
+              href=""
               className="tw-block tw-w-full"
               ga-tracking-value="bannersection-vitri2"
               ga-tracking-label="SẢN PHẨM CHẠY BỘ"
@@ -582,7 +582,7 @@ const Home: React.FC = () => {
               <div className="banner-block__button">
                 <a
                   className="tw-inline-flex tw-items-center tw-gap-1 md:tw-gap-2 tw-font-criteria md:tw-text-base tw-text-sm tw-font-normal tw-px-3 md:tw-px-12 tw-pt-2 tw-pb-[5px] md:tw-py-4 tw-rounded-full tw-uppercase tw-bg-cm-neutral-00 tw-text-cm-neutral-900 hover:tw-bg-cm-neutral-100"
-                  href="https://www.coolmate.me/collection/do-chay-bo-coolmate?itm_source=homepage&itm_medium=homepage_banner_section2&itm_campaign=/image/May2025/Running_-_Desktop.jpg&itm_content=/image/May2025/Running_-_Desktop.jpg"
+                  href=""
                   ga-tracking-value="bannersection-vitri2"
                   ga-tracking-label="SẢN PHẨM CHẠY BỘ"
                 >
