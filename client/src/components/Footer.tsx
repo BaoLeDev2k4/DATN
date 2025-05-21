@@ -16,7 +16,7 @@ const Footer : React.FC = ()=>{
                 <a
                   className="site-footer__btn !tw-mb-6 !tw-inline-flex !tw-items-center !tw-gap-1 md:!tw-gap-2 !tw-font-criteria md:!tw-text-base !tw-text-sm !tw-font-normal !tw-px-6 md:!tw-px-12 !tw-py-2 md:!tw-py-4 !tw-rounded-full !tw-uppercase !tw-bg-cm-blue !tw-text-cm-white hover:!tw-bg-cm-blue/80 !tw-h-auto"
                   rel="nofollow"
-                  href="https://form.typeform.com/to/lU2oprGc?typeform-medium=embed-snippet"
+                  href="#"
                   target="_blank"
                 >
                   Đóng góp ý kiến{" "}
@@ -43,7 +43,7 @@ const Footer : React.FC = ()=>{
                   <div className="footer-info__content">
                     <span className="footer-info__title">Hotline</span>
                     <p className="footer-info__desciption">
-                      <a rel="nofollow" href="tel: 1900272737">
+                      <a rel="nofollow" href="#">
                         1900.272737
                       </a>{" "}
                       -{" "}

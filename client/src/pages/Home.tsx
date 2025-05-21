@@ -8,7 +8,7 @@ const Home: React.FC = () => {
           <div className="banner-slide" rel-script="banner-slide">
             <div className="banner-slide__item">
               <a
-                href="https://www.coolmate.me/collection/ao-nam-choi-the-thao?sort=new&itm_source=herobanner_1&itm_campaign=T-SHIRT__POLO_THE_THAO_-_Desktop&itm_content=/image/May2025/T-SHIRT__POLO_THE_THAO_-_Desktop.jpg"
+                href="#"
                 target="_self"
                 className="herobanner-banner-1"
                 ga-tracking-value="herobanner-banner-1-t-shirt-polo-the-thao-desktop"
